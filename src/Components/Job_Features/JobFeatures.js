@@ -15,17 +15,17 @@ const JobFeatures = () => {
                                 <div>
                                     <img src={software_engineer} alt="" className='feature-img' />
                                 </div>
-                                <div className='w-75'>
+                                <div className='w-100'>
                                     <p className='font font-bold fs-3'>Software Engineer</p>
                                     <p className='font font-bold fs-4'>10k + Companies</p>
                                     <div className='d-flex gap-2'>
                                         <p className='bg-dark w-50 text-white text-center rounded-2 pt-2 pb-2 me-3 font-bold'>Onsite</p>
                                         <p className='bg-dark w-50 text-white text-center rounded-2 pt-2 pb-2 font-bold'>Remote</p>
                                     </div>
-                                    <div className='mt-2 d-flex gap-2'>
+                                    {/* <div className='mt-2 d-flex gap-2'>
                                         <p className='bg-warning w-50 text-black text-center rounded-2 pt-2 pb-2 me-3 font'>Internship</p>
                                         <p className='bg-warning w-50 text-black text-center rounded-2 pt-2 pb-2 me-3 font'>Full Time</p>
-                                    </div>
+                                    </div> */}
                                     <p className='font font-bold fs-4 mt-2'>Salary: 30k - 35k</p>
                                 </div>
                             </div>
@@ -39,17 +39,17 @@ const JobFeatures = () => {
                                 <div>
                                     <img src={data_analyst} alt="" className='feature-img' />
                                 </div>
-                                <div className='w-75'>
+                                <div className='w-100'>
                                     <p className='font font-bold fs-3'>Full-Stack Developer</p>
                                     <p className='font font-bold fs-4'>15k + Companies</p>
                                     <div className='d-flex gap-2'>
                                         <p className='bg-dark w-50 text-white text-center rounded-2 pt-2 pb-2 me-3 font-bold'>Onsite</p>
                                         <p className='bg-dark w-50 text-white text-center rounded-2 pt-2 pb-2 font-bold'>Remote</p>
                                     </div>
-                                    <div className='mt-2 d-flex gap-2'>
+                                    {/* <div className='mt-2 d-flex gap-2'>
                                         <p className='bg-warning w-50 text-black text-center rounded-2 pt-2 pb-2 me-3 font'>Internship</p>
                                         <p className='bg-warning w-50 text-black text-center rounded-2 pt-2 pb-2 me-3 font'>Full Time</p>
-                                    </div>
+                                    </div> */}
                                     <p className='font font-bold fs-4 mt-2'>Salary: 40k - 55k</p>
                                 </div>
                             </div>
