@@ -4,7 +4,7 @@ const JobSearch = () => {
     return (
         <div className="jobSearch">
             <h2 className="text-center font font-black mb-5 fs-1">Search Your Job</h2>
-            <form className="d-flex flex-column justify-content-start g-3">
+            <form className="d-flex flex-column justify-content-start g-3 p-4">
                 <div className="d-flex align-items-center align-items-start justify-content-center">
                     <input type="text" className="form-control job-type mb-5" id="staticEmail2" placeholder="Job Type"/>
                 </div>
