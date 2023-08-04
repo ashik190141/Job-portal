@@ -31,7 +31,7 @@ const Banner = () => {
                     <div className="d-flex flex-column align-items-center justify-content-center">
                         <button className="btn btn-outline-dark font fs-4">Find Jobs</button>
                         <p className='font w-75 mt-4 text-center fs-5'>
-                            Companies start sending interview requests. Talk to only the ones you like.
+                            You start sending interview requests and show your skill. Talk to only the ones you like.
                         </p>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ const Banner = () => {
                     <div className="d-flex flex-column align-items-center justify-content-center">
                         <button className="btn btn-outline-dark font fs-4">Get Dream Job</button>
                         <p className='font w-75 mt-4 text-center fs-5'>
-                            Companies start sending interview requests. Talk to only the ones you like.
+                            After Interview you get your dream job and make your life more beautiful
                         </p>
                     </div>
                 </div>
