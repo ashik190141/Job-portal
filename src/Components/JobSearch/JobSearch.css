@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+.font {
+    font-family: 'Lato', sans-serif;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-black {
+    font-weight:900;
+}
+
+.jobSearch{
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+.job-type{
+    width: 800px;
+    height: 50px;
+}

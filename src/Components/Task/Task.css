@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+.font {
+    font-family: 'Lato', sans-serif;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.task {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.full-task{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.displayTasks{
+    display: none;
+}
+
+@media screen and (max-width:576px){
+    .full-task {
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .displayTasks{
+        display: block;
+    }
+}

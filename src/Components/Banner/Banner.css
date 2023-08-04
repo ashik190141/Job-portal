@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+.font {
+    font-family: 'Lato', sans-serif;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+
+.backGround{
+    background-image: url('../../images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: auto;
+}
+
+.banner-title{
+    padding-top: 150px;
+    font-size: 45px;
+}
+
+.card-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px #333435 solid ;
+}
+.banner-card-bg{
+    /* background-color: white; */
+    border: 3px rgb(112, 107, 98) solid;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: #333435;
+}
+.banner-card{
+    padding-bottom: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.getHover:hover{
+    border: 1px black solid;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.banner-des-width{
+    width: 50%;
+}
+
+
+@media screen and (max-width:576px){
+    .banner-card {
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-title {
+        padding-top: 10px;
+        font-size: 45px;
+    }
+    .banner-des-width{
+        width: 100%;
+        text-align: justify;
+        padding: 5px;
+    }
+}
